@@ -50,9 +50,9 @@ Description of analysis:
 ### Video ratings and QoE models analysis
 Description of analysis:
 
-<center>
-  <img src="images/Video_ratings_and_QoE_models_analysis/legend4-1.png" alt="legend" width="600">
-</center>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="images/Video_ratings_and_QoE_models_analysis/legend4-1.png" alt="legend" width="700">
+</div>
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
 
