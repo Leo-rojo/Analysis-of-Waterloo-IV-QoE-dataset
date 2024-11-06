@@ -43,15 +43,15 @@ Description of analysis:
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/ECDF_individual_scores-1.png" alt="alluserbox" width="300">
+    <img src="images/Video_ratings_analysis/ECDF_individual_scores-1.png" alt="alluserbox" width="270">
     <figcaption>Individual QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/boxplot_subset-1.png" alt="cdfalluser" width="300">
+    <img src="images/Video_ratings_analysis/boxplot_subset-1.png" alt="cdfalluser" width="270">
     <figcaption>Group QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/nonlinearityfact-1.png" alt="Box_plot2_avemos" width="300">
+    <img src="images/Video_ratings_analysis/nonlinearityfact-1.png" alt="Box_plot2_avemos" width="270">
     <figcaption>Group QoE perception</figcaption>
   </figure>
 </div>
