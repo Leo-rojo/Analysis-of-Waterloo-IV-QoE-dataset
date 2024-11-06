@@ -25,17 +25,17 @@ Description of analysis:
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/alluserbox1-1.png" alt="alluserbox" width="280">
+    <img src="images/Video_ratings_analysis/alluserbox1-1.png" alt="alluserbox" width="270">
 
 [//]: # (    <figcaption>Individual QoE perception</figcaption>)
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/cdfalluser2-1.png" alt="cdfalluser" width="280">
+    <img src="images/Video_ratings_analysis/cdfalluser2-1.png" alt="cdfalluser" width="270">
 
 [//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_analysis/Box_plot2_avemos-1.png" alt="Box_plot2_avemos" width="280">
+    <img src="images/Video_ratings_analysis/Box_plot2_avemos-1.png" alt="Box_plot2_avemos" width="270">
 
 [//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
