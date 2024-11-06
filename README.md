@@ -24,18 +24,15 @@ Part of the original [Database](https://ieee-dataport.org/open-access/waterloo-s
 Description of analysis:
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="margin: 0; text-align: center;">
+  <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/alluserbox1-1.png" alt="alluserbox" width="270">
-<p><em>Group QoE perception</em></p>
-  </div>
-  <div style="margin: 0; text-align: center;">
+  </figure>
+  <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/cdfalluser2-1.png" alt="cdfalluser" width="270">
-<p><em>Group QoE perception</em></p>
-  </div>
-  <div style="margin: 0; text-align: center;">
+  </figure>
+  <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/Box_plot2_avemos-1.png" alt="Box_plot2_avemos" width="270">
-<p><em>Group QoE perception</em></p>
-  </div>
+  </figure>
 </div>
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
@@ -61,30 +58,24 @@ Description of analysis:
 
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/plcc_hdtv-1.png" alt="alluserbox" width="300">
-    <figcaption>Individual QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/srcc_hdtv-1.png" alt="cdfalluser" width="300">
-    <figcaption>Group QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/krcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
-    <figcaption>Group QoE perception</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/diffplcc_hdtv-1.png" alt="alluserbox" width="300">
-    <figcaption>Individual QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/diffsrcc_hdtv-1.png" alt="cdfalluser" width="300">
-    <figcaption>Group QoE perception</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_and_QoE_models_analysis/diffkrcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
-    <figcaption>Group QoE perception</figcaption>
   </figure>
 </div>
 
@@ -93,5 +84,4 @@ Description of analysis:
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="images/QoE_model_vs_personalized_QoE_model/svmlindiff-1.png" alt="legend" width="600">
-  <figcaption>Group QoE perception</figcaption>
 </div>
