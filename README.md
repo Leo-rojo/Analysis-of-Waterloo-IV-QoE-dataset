@@ -26,7 +26,8 @@ Description of analysis:
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/alluserbox1-1.png" alt="alluserbox" width="270">
-    <em>Group QoE perception</em>
+
+[//]: # (    <figcaption>Individual QoE perception</figcaption>)
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/cdfalluser2-1.png" alt="cdfalluser" width="270">
@@ -39,7 +40,7 @@ Description of analysis:
 [//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
 </div>
-
+culo puzza puzza 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/ECDF_individual_scores-1.png" alt="alluserbox" width="270">
@@ -57,6 +58,7 @@ Description of analysis:
 [//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
 </div>
+culo puzza puzza
 
 ### Video ratings and QoE models analysis
 Description of analysis:
