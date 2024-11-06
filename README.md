@@ -23,22 +23,20 @@ Part of the original [Database](https://ieee-dataport.org/open-access/waterloo-s
 ### Video ratings analysis
 Description of analysis:
 
-<div style="display: flex; justify-content: space-between; gap: 10px; text-align: center;">
-  <div style="display: inline-block; text-align: center;">
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <div style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/alluserbox1-1.png" alt="alluserbox" width="270">
-    <p><em>Individual QoE perception</em></p>
+<p><em>Group QoE perception</em></p>
   </div>
-  <div style="display: inline-block; text-align: center;">
+  <div style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/cdfalluser2-1.png" alt="cdfalluser" width="270">
-    <p><em>Group QoE perception</em></p>
+<p><em>Group QoE perception</em></p>
   </div>
-  <div style="display: inline-block; text-align: center;">
+  <div style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/Box_plot2_avemos-1.png" alt="Box_plot2_avemos" width="270">
-    <p><em>Group QoE perception</em></p>
+<p><em>Group QoE perception</em></p>
   </div>
 </div>
-
-
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
