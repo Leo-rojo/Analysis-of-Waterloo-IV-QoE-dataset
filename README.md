@@ -57,25 +57,25 @@ Description of analysis:
 <div style="display: flex; justify-content: space-between; gap: 10px;">
 
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/plcc_hdtv-1.png" alt="alluserbox" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/plcc_hdtv-1.png" alt="alluserbox" width="270">
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/srcc_hdtv-1.png" alt="cdfalluser" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/srcc_hdtv-1.png" alt="cdfalluser" width="270">
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/krcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/krcc_hdtv-1.png" alt="Box_plot2_avemos" width="270">
   </figure>
 </div>
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/diffplcc_hdtv-1.png" alt="alluserbox" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffplcc_hdtv-1.png" alt="alluserbox" width="270">
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/diffsrcc_hdtv-1.png" alt="cdfalluser" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffsrcc_hdtv-1.png" alt="cdfalluser" width="270">
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/diffkrcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffkrcc_hdtv-1.png" alt="Box_plot2_avemos" width="270">
   </figure>
 </div>
 
