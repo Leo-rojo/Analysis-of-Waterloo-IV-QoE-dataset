@@ -43,15 +43,18 @@ Description of analysis:
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/ECDF_individual_scores-1.png" alt="alluserbox" width="270">
-    <figcaption>Individual QoE perception</figcaption>
+
+[//]: # (    <figcaption>Individual QoE perception</figcaption>)
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/boxplot_subset-1.png" alt="cdfalluser" width="270">
-    <figcaption>Group QoE perception</figcaption>
+
+[//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="images/Video_ratings_analysis/nonlinearityfact-1.png" alt="Box_plot2_avemos" width="270">
-    <figcaption>Group QoE perception</figcaption>
+
+[//]: # (    <figcaption>Group QoE perception</figcaption>)
   </figure>
 </div>
 
@@ -62,25 +65,41 @@ Description of analysis:
   <img src="images/Video_ratings_and_QoE_models_analysis/legend4-1.png" alt="legend" width="600">
 </div>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <figure style="margin: 0; display: block; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/plcc_hdtv-1.png" alt="plcc_hdtv" width="270">
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/plcc_hdtv-1.png" alt="alluserbox" width="300">
     <figcaption>Individual QoE perception</figcaption>
   </figure>
-  <figure style="margin: 0; display: block; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/srcc_hdtv-1.png" alt="srcc_hdtv" width="270">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/srcc_hdtv-1.png" alt="cdfalluser" width="300">
     <figcaption>Group QoE perception</figcaption>
   </figure>
-  <figure style="margin: 0; display: block; text-align: center;">
-    <img src="images/Video_ratings_and_QoE_models_analysis/krcc_hdtv-1.png" alt="krcc_hdtv" width="270">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/krcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
     <figcaption>Group QoE perception</figcaption>
   </figure>
 </div>
 
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffplcc_hdtv-1.png" alt="alluserbox" width="300">
+    <figcaption>Individual QoE perception</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffsrcc_hdtv-1.png" alt="cdfalluser" width="300">
+    <figcaption>Group QoE perception</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/Video_ratings_and_QoE_models_analysis/diffkrcc_hdtv-1.png" alt="Box_plot2_avemos" width="300">
+    <figcaption>Group QoE perception</figcaption>
+  </figure>
+</div>
 
 ### QoE model vs personalized QoE model
 Description of analysis:
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="images/QoE_model_vs_personalized_QoE_model/svmlindiff-1.png" alt="legend" width="600">
+  <figcaption>Group QoE perception</figcaption>
 </div>
