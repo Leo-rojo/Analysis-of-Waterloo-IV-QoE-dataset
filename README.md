@@ -101,9 +101,16 @@ suited for accurately predicting individual subjective perceptions.
 </div>
 
 ### Video ratings and QoE models analysis
-Description of analysis:
+We now shift focus from individual influence factors to evaluating how well QoE models predict subjective ratings. 
+We consider eleven baseline models: Exponential<sup>1</sup>, Linear Rebuffering<sup>2</sup>, Linear Utility<sup>3</sup>, IIR Filter<sup>4</sup>, MPC<sup>5</sup>, BOLA<sup>6</sup>, 
+SDNDASH<sup>7</sup>, SQI<sup>8</sup>, KSQI<sup>9</sup>, VideoATLAS<sup>10</sup>, and P1203<sup>11</sup>.
 
-**Figure 7:** 
+**Figure 7**: This figure shows the Pearson correlation coefficient (PCC) distributions for 32 HDTV users, comparing their subjective 
+ratings with the predictions from these models. Five models have consistently low correlation (PCC ≤ 0.5 for all users), while six models show mixed 
+results: for 50%-85% of users, absolute PCC values exceed 0.5 but still fall short of 0.7. Thus, all models weakly predict individual ratings. Additionally, 
+we assess prediction monotonicity using Spearman’s (SRCC) and Kendall’s (KRCC) rank correlations. The figure shows that all QoE models perform poorly 
+in maintaining prediction rank order as well.
+
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="images/Video_ratings_and_QoE_models_analysis/legend4-1.png" alt="legend" width="700">
 </div>
@@ -121,7 +128,13 @@ Description of analysis:
   </figure>
 </div>
 
-**Figure 8:** 
+**Figure 8:** We compare each QoE model’s ability to predict MOS versus individual user rankings using PCC, 
+SRCC, and KRCC. For each user, we compute the correlation between their opinion and the model’s QoE score, 
+as well as the correlation between MOS and the model’s QoE score. By taking the absolute values and subtracting 
+the former from the latter, we determine the difference in magnitude. Figure 8 shows these differences for PCC, 
+SRCC, and KRCC. Most models correlate better with MOS than with individual opinions; exceptions are the models 
+with overall weak performance in Figure 7. This suggests that current QoE models poorly capture individual 
+user perceptions.
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="images/Video_ratings_and_QoE_models_analysis/legend4-1.png" alt="legend" width="700">
 </div>
@@ -138,15 +151,66 @@ Description of analysis:
 </div>
 
 ### QoE model vs personalized QoE model
-**Figure 9:** 
 We compare simple QoE models trained on MOS versus user-specific ratings, both using VMAF, VMAF variance, and rebuffering 
 time as features. The models are trained on the HDTV data from the WaterlooSQoE-IV dataset using linear regression or 
 Support Vector Regression (SVR) with a nonlinear kernel. Linear models use 5-fold cross-validation, while SVR models 
 require 5-fold nested cross-validation for hyperparameter tuning. Training is done with MOS or individual scores, and 
 testing is done with individual scores. The MAE (Mean Absolute Error) is used to evaluate the models.
 
-The figure displays the error difference along with its standard deviation for HDTV users, ordered by their mean rating. Whether using SVR or linear regression, the MAE is consistently higher for MOS-trained models compared to personalized QoE models. For users close to the average HDTV user, the error difference is small. However, for users farther from the average, the error difference becomes larger and more significant. Therefore, personalized QoE models show greater accuracy than MOS-trained models for a large number of users.
+**Figure 9:** The figure displays the error difference along with its standard deviation for HDTV users, ordered by their mean rating. 
+Whether using SVR or linear regression, the MAE is consistently higher for MOS-trained models compared to personalized QoE models. 
+For users close to the average HDTV user, the error difference is small. However, for users farther from the average, the error difference becomes 
+larger and more significant. Therefore, personalized QoE models show greater accuracy than MOS-trained models for a large number of users.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="images/QoE_model_vs_personalized_QoE_model/svmlindiff-1.png" alt="legend" width="600">
 </div>
+
+<sup>1</sup><small>Tobias Hoßfeld, Raimund Schatz, Ernst Biersack, and Louis Plissonneau. 2013.
+Internet Video Delivery in YouTube: From Traffic Measurements to Quality of
+Experience. In Data Traffic Monitoring and Analysis, LNCS 7754. 264–301.
+https://doi.org/10.1007/978-3-642-36784-7_11.</small>
+
+<sup>2</sup><small>Ricky K. P. Mok, Edmond W. W. Chan, and Rocky K. C. Chang. 2011. Measuring
+the Quality of Experience of HTTP Video Streaming. In IFIP/IEEE IM 2011,
+485–492. https://doi.org/10.1109/INM.2011.5990550.</small>
+
+<sup>3</sup><small>Xi Liu, Florin Dobrian, Henry Milner, Junchen Jiang, Vyas Sekar, Ion Stoica, and
+Hui Zhang. 2012. A Case for a Coordinated Internet-Scale Video Control Plane.
+ACM SIGCOMM Computer Communication Review 42 (August 2012), 359–370.
+https://doi.org/10.1145/2377677.2377752.</small>
+
+<sup>4</sup><small>Jingteng Xue, Dong Qing Zhang, Heather Yu, and Chang Wen Chen. 2014. Assessing
+Quality of Experience for Adaptive HTTP Video Streaming. In IEEE
+ICMEW 2014. https://doi.org/10.1109/ICMEW.2014.6890604.</small>
+
+<sup>5</sup><small>Xiaoqi Yin, Abhishek Jindal, Vyas Sekar, and Bruno Sinopoli. 2015. A Control-
+Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP. In ACM
+SIGCOMM 2015. 325–338. https://doi.org/10.1145/2785956.2787486.</small>
+
+<sup>6</sup><small>Kevin Spiteri, Rahul Urgaonkar, and Ramesh K. Sitaraman. 2016. BOLA: Nearoptimal
+Bitrate Adaptation for Online Videos. In IEEE INFOCOM 2016. 1–9.
+https://doi.org/10.1109/INFOCOM.2016.7524428.</small>
+
+<sup>7</sup><small>Abdelhak Bentaleb, Ali C. Begen, and Roger Zimmermann. 2016. SDNDASH: Improving
+QoE of HTTP Adaptive Streaming Using Software Defined Networking.
+In ACM MM 2016, 1296–1305. https://doi.org/10.1145/2964284.2964332.</small>
+
+<sup>8</sup><small>Zhengfang Duanmu, Kai Zeng, Kede Ma, Abdul Rehman, and Zhou Wang. 2017.
+A Quality-of-Experience Index for Streaming Video. IEEE Journal on Selected
+Topics in Signal Processing 11, 1 (February 2017), 154–166.
+https://doi.org/10.1109/JSTSP.2016.2608329.</small>
+
+<sup>9</sup><small>Zhengfang Duanmu, Wentao Liu, Diqi Chen, Zhuoran Li, Zhou Wang, Yizhou
+Wang, and Wen Gao. 2019. A Knowledge-Driven Quality-of-Experience Model
+for Adaptive Streaming Videos. arXiv 1911.07944 (November 2019), 1–12.
+http://arxiv.org/abs/1911.07944.</small>
+
+<sup>10</sup><small>Christos G. Bampis and Alan C. Bovik. 2017. Learning to Predict Streaming
+Video QoE: Distortions, Rebuffering and Memory. arXiv 1703.00633 (March
+2017), 1–12. https://arxiv.org/abs/1703.00633.</small>
+
+<sup>11</sup><small>International Telecommunication Union. 2017. Parametric Bitstream-Based Quality
+Assessment of Progressive Download and Adaptive Audiovisual Streaming
+Services Over Reliable Transport. (October 2017). Recommendation ITU-T
+P.1203. https://www.itu.int/rec/T-REC-P.1203-201710-I.</small>
