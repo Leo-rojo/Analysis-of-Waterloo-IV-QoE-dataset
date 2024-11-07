@@ -3,5 +3,5 @@ The input to the `nestedkfold.py` script is a .csv file which contains the indiv
 
 ### Replicate the plots
 run the command `python nestedkfold.py`. It will perform 15 round of the same experiments (there is a randomic shuffle of data that makes the results a bit variable, so it is possible to compare the results for each shuffle) 
-and results will be added to Figure 4 folder. 
+and results will be added to Figure 9 folder. 
 

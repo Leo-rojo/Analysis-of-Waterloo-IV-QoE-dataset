@@ -5,7 +5,7 @@ import glob
 import csv
 from shutil import copyfile
 
-datain='C:\\Users\\leona\\Desktop\\No-One-is-a-Group-Software-Repository\\Figure 2 and Figure 3\\data_flow\\data\\resultsmixture\\'
+datain='C:\\Users\\leona\\Desktop\\No-One-is-a-Group-Software-Repository\\Figure 7 and Figure 8_video ratings and QoE models analysis\\data_flow\\data\\resultsmixture\\'
 
 #convert csv files to xlsx files
 os.chdir(datain)
@@ -31,7 +31,7 @@ for file in FileList:
     ws1 = wb1.worksheets[0]
 
     # opening the destination excel file
-    filename1 = "C:\\Users\\leona\\Desktop\\No-One-is-a-Group-Software-Repository\\Figure 2 and Figure 3\\data_flow\\data\\final_results.xlsx"
+    filename1 = "C:\\Users\\leona\\Desktop\\No-One-is-a-Group-Software-Repository\\Figure 7 and Figure 8_video ratings and QoE models analysis\\data_flow\\data\\final_results.xlsx"
     wb2 = xl.load_workbook(filename1)
     ws2 = wb2.active
 
