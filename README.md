@@ -16,9 +16,19 @@ The results are shown in the figures below. The project is organized into folder
 "Figure x_results_name," where x indicates the figure number to reproduce, and the text 
 following the underscore identifies the figure's category. Each folder contains additional information.
 
-Part of the original [Database](https://ieee-dataport.org/open-access/waterloo-streaming-quality-experience-database-iv) is replicated in folder `Waterloo Streaming QoE Database IV`
+## Waterloo-IV 
+A portion of the original [Waterloo Streaming Quality-of-Experience Database-IV](https://ieee-dataport.org/open-access/waterloo-streaming-quality-experience-database-iv) is included in the folder `WaterlooIV partial database` within this repository.
 
-### Waterloo-IV 
+This dataset is sourced from IEEE DataPort: **The Waterloo Streaming Quality-of-Experience Database-IV**.  
+**Original Authors**: Zhengfang Duanmu, Wentao Liu, Zhuoran Li, Diqi Chen, Zhou Wang, Yizhou Wang, Wen Gao.  
+**License**: [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+For the full dataset, access it here: [IEEE DataPort - Waterloo-IV Database](https://ieee-dataport.org/open-access/waterloo-streaming-quality-experience-database-iv).
+
+Please remember to cite the dataset in any publications or research using the following citation:
+`Zhengfang Duanmu, Wentao Liu, Zhuoran Li, Diqi Chen, Zhou Wang, Yizhou Wang, Wen Gao, September 24, 2020, "The Waterloo Streaming Quality-of-Experience Database-IV", IEEE Dataport, doi: https://dx.doi.org/10.21227/j15a-8r35.`
+
+###  Waterloo-IV brief description
 The Waterloo-IV dataset consists of 1,350 streaming videos, covering all combinations of five source videos, 
 two video encoders (H.264 and HEVC), nine network traces, five ABR algorithms, and three types of viewing devices: 
 phone, high-definition television (HDTV), and ultra-high-definition television (UHDTV). The source videos span 
@@ -26,9 +36,6 @@ various genres, such as nature and sports, with an average duration of approxima
 in a university lab's subjective experiment, five users were deemed unreliable and excluded from the dataset. 
 The remaining 92 participants were randomly assigned to one of the three device categories. The dataset includes QoE ratings, 
 ranging from 0 to 100, for device-specific videos provided by 29 phone users, 32 HDTV users, and 31 UHDTV users.
-
-####  Waterloo-IV reference
-`Zhengfang Duanmu, Wentao Liu, Zhuoran Li, Diqi Chen, Zhou Wang, Yizhou Wang, Wen Gao, September 24, 2020, "The Waterloo Streaming Quality-of-Experience Database-IV", IEEE Dataport, doi: https://dx.doi.org/10.21227/j15a-8r35.`
 
 ## Results
 ### Video ratings analysis
