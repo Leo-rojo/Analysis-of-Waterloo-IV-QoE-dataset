@@ -26,7 +26,6 @@ This dataset is sourced from IEEE DataPort: **The Waterloo Streaming Quality-of-
 For the full dataset, access it here: [IEEE DataPort - Waterloo-IV Database](https://ieee-dataport.org/open-access/waterloo-streaming-quality-experience-database-iv).
 
 Please remember to cite the dataset in any publications or research using the following citation:
-
 `Zhengfang Duanmu, Wentao Liu, Zhuoran Li, Diqi Chen, Zhou Wang, Yizhou Wang, Wen Gao, September 24, 2020, "The Waterloo Streaming Quality-of-Experience Database-IV", IEEE Dataport, doi: https://dx.doi.org/10.21227/j15a-8r35.`
 
 ###  Waterloo-IV brief description
